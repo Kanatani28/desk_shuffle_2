@@ -4,3 +4,12 @@ td {
   align-items: center;
   justify-content: center;
 }
+
+.middle td {
+  height: 200px;
+  font-size: 100px
+}
+
+tr {
+  margin-bottom: 25px;
+}
