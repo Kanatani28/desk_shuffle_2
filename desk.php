@@ -12,7 +12,7 @@ $lines = file("user.csv", FILE_IGNORE_NEW_LINES);
 $participants = [];
 
 // 座れない席
-$nonEmptyDesks = [[2, 3], [4, 1], [4, 3], [5, 1], [5, 2], [5, 3], [5, 4], [6, 1], [6, 2], [6, 3], [6, 4]];
+$nonEmptyDesks = [];
 
 // ファイルから読み込んだ内容を連想配列に変換
 foreach ($lines as $line) {
